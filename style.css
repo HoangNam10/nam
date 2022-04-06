@@ -1,0 +1,83 @@
+/* html */
+
+html{
+    background-color: gray;
+}
+
+/* body main */
+
+#background{
+    background-color: white;
+    width: 1000px;
+    height: 615px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 25px;
+}
+#back{
+    background-color: red;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+#back1{
+    background-color: #576EA5;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+#back2{
+    background-color: pink;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#back3{
+    background-color: red;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+
+
+}
+#back4{
+    background-color: green;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+
+}
+#back5{
+    background-color: rgb(58, 109, 204);
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+image{
+    height: 100px;
+    width: 100px;
+}
