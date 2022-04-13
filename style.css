@@ -9,7 +9,7 @@ html{
 #background{
     background-color: white;
     width: 1000px;
-    height: 615px;
+    height: 710px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -69,6 +69,16 @@ html{
 }
 #back5{
     background-color: rgb(58, 109, 204);
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+   
+
+}
+#back6{
+    background-color: rgb(78, 134, 236);
     width: 950px;
     margin-left: auto;
     margin-right: auto;
