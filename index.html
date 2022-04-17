@@ -34,6 +34,19 @@
             <h2><a target="_blank" href="https://twitter.com" style="text-decoration: none;" >twitter.com<img src="image/eeeeeeeeeeeeeeeeeee-removebg-preview.png" alt="youtube logo" width="30" height="30"></a></h2>
         </div> 
     </div>
+    <div id="container">
+        <h1>dark-mode</h1>
+        <label class="switch">
+          <input type="checkbox" onclick="changeMode()">
+          <span class="slider"></span>
+        </label>
+      </div>
+    <script>
+        function changeMode() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+      </script>
     </main>
 </body>
 </html>
