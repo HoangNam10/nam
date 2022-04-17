@@ -59,7 +59,7 @@ html{
 
 }
 #back4{
-    background-color: green;
+    background-color: rgb(50, 182, 50);
     width: 950px;
     margin-left: auto;
     margin-right: auto;
@@ -91,3 +91,96 @@ image{
     height: 100px;
     width: 100px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: gray;
+  transition: .6s;
+}
+h1 {
+    font-size: medium;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+#container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  align-items:  left;
+  
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.switch input {
+  display: none;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ccc;
+  border-radius: 34px;
+  transition: .4s;
+}
+.slider:before {
+  content: "";
+  position: absolute;
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background: #fff;
+  border-radius: 50%;
+  transition: .4s;
+}
+input:checked + .slider {
+  background: #645d70;
+}
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+.dark-mode {
+  background: rgb(53, 54, 58);
+}
+.dark-mode h1 {
+  color: #f7f0e9;
+}
+.dark-mode #background{
+    background: rgb(101, 102, 105);
+}
+.dark-mode #back{
+    background: #8b0000;
+}
+.dark-mode #back1{
+    background: #465884;
+}
+.dark-mode #back2{
+    background: #AA336A;
+}
+.dark-mode #back3{
+    background: #8b0000;
+}
+.dark-mode #back4{
+    background: rgb(64, 128, 83);
+}
+.dark-mode #back5{
+    background: rgb(57, 94, 161);
+}
+.dark-mode #back6{
+    background: rgb(61, 95, 156);
+}
+
